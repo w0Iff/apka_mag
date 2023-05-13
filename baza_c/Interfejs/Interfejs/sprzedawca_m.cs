@@ -26,5 +26,10 @@ namespace Interfejs
         {
 
         }
+
+        private void btn_akt_sprz_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

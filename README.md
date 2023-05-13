@@ -1,1 +1,1 @@
-# apka_mag test connection
+# Aplikacja Magazynowa

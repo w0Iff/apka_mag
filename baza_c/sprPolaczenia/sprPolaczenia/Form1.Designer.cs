@@ -1,6 +1,6 @@
 ﻿namespace sprPolaczenia
 {
-    partial class Form1
+    partial class glmenu
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -47,7 +47,7 @@
             // 
             this.kntrOK.AutoSize = true;
             this.kntrOK.BackColor = System.Drawing.Color.LawnGreen;
-            this.kntrOK.Location = new System.Drawing.Point(122, 151);
+            this.kntrOK.Location = new System.Drawing.Point(116, 150);
             this.kntrOK.Name = "kntrOK";
             this.kntrOK.Size = new System.Drawing.Size(95, 16);
             this.kntrOK.TabIndex = 1;
@@ -58,13 +58,13 @@
             this.kntrERR.AutoSize = true;
             this.kntrERR.BackColor = System.Drawing.Color.Crimson;
             this.kntrERR.ForeColor = System.Drawing.Color.Black;
-            this.kntrERR.Location = new System.Drawing.Point(113, 151);
+            this.kntrERR.Location = new System.Drawing.Point(116, 190);
             this.kntrERR.Name = "kntrERR";
             this.kntrERR.Size = new System.Drawing.Size(104, 16);
             this.kntrERR.TabIndex = 2;
             this.kntrERR.Text = "Blad polaczenia";
             // 
-            // Form1
+            // glmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -72,7 +72,7 @@
             this.Controls.Add(this.kntrERR);
             this.Controls.Add(this.kntrOK);
             this.Controls.Add(this.kntrSpr);
-            this.Name = "Form1";
+            this.Name = "glmenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Polaczenie z BAZA";
             this.ResumeLayout(false);

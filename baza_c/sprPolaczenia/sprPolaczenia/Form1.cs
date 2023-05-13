@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace sprPolaczenia
 {
-    public partial class Form1 : Form
+    public partial class glmenu : Form
     {
-        Dane.polaczenie con = new Dane.polaczenie();
-        public Form1()
+        Data.polaczenie con = new Data.polaczenie();
+        public glmenu()
         {
             InitializeComponent();
             kntrOK.Visible = false;
@@ -24,7 +24,7 @@ namespace sprPolaczenia
         {
             try
             {
-                Dane.polaczenie.dataSource();
+                Data.polaczenie.dataSource();
                 con.connOpen();
                 kntrOK.Visible = true;
                 kntrERR.Visible = false;

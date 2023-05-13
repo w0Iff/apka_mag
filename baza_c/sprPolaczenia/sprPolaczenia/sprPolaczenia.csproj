@@ -86,7 +86,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dane\polaczenie.cs" />
+    <Compile Include="Data\polaczenie.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.sprzedawca_panel = new System.Windows.Forms.Panel();
+            this.btn_akt_sprz = new System.Windows.Forms.Button();
             this.tabela_sprzedawca = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_akt_sprz = new System.Windows.Forms.Button();
             this.sprzedawca_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabela_sprzedawca)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +46,16 @@
             this.sprzedawca_panel.Name = "sprzedawca_panel";
             this.sprzedawca_panel.Size = new System.Drawing.Size(107, 447);
             this.sprzedawca_panel.TabIndex = 0;
+            // 
+            // btn_akt_sprz
+            // 
+            this.btn_akt_sprz.Location = new System.Drawing.Point(3, 199);
+            this.btn_akt_sprz.Name = "btn_akt_sprz";
+            this.btn_akt_sprz.Size = new System.Drawing.Size(87, 117);
+            this.btn_akt_sprz.TabIndex = 0;
+            this.btn_akt_sprz.Text = "Zaktualizuj dane";
+            this.btn_akt_sprz.UseVisualStyleBackColor = true;
+            this.btn_akt_sprz.Click += new System.EventHandler(this.btn_akt_sprz_Click);
             // 
             // tabela_sprzedawca
             // 
@@ -97,15 +107,6 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Width = 125;
-            // 
-            // btn_akt_sprz
-            // 
-            this.btn_akt_sprz.Location = new System.Drawing.Point(15, 144);
-            this.btn_akt_sprz.Name = "btn_akt_sprz";
-            this.btn_akt_sprz.Size = new System.Drawing.Size(75, 117);
-            this.btn_akt_sprz.TabIndex = 0;
-            this.btn_akt_sprz.Text = "Zmien Dane";
-            this.btn_akt_sprz.UseVisualStyleBackColor = true;
             // 
             // sprzedawca_m
             // 
