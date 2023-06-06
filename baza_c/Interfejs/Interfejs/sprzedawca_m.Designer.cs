@@ -35,12 +35,14 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kntrSpr = new System.Windows.Forms.Button();
             this.sprzedawca_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabela_sprzedawca)).BeginInit();
             this.SuspendLayout();
             // 
             // sprzedawca_panel
             // 
+            this.sprzedawca_panel.Controls.Add(this.kntrSpr);
             this.sprzedawca_panel.Controls.Add(this.btn_akt_sprz);
             this.sprzedawca_panel.Location = new System.Drawing.Point(12, 1);
             this.sprzedawca_panel.Name = "sprzedawca_panel";
@@ -49,9 +51,9 @@
             // 
             // btn_akt_sprz
             // 
-            this.btn_akt_sprz.Location = new System.Drawing.Point(3, 199);
+            this.btn_akt_sprz.Location = new System.Drawing.Point(3, 116);
             this.btn_akt_sprz.Name = "btn_akt_sprz";
-            this.btn_akt_sprz.Size = new System.Drawing.Size(87, 117);
+            this.btn_akt_sprz.Size = new System.Drawing.Size(101, 117);
             this.btn_akt_sprz.TabIndex = 0;
             this.btn_akt_sprz.Text = "Zaktualizuj dane";
             this.btn_akt_sprz.UseVisualStyleBackColor = true;
@@ -108,6 +110,15 @@
             this.Column4.ReadOnly = true;
             this.Column4.Width = 125;
             // 
+            // kntrSpr
+            // 
+            this.kntrSpr.Location = new System.Drawing.Point(3, 239);
+            this.kntrSpr.Name = "kntrSpr";
+            this.kntrSpr.Size = new System.Drawing.Size(101, 91);
+            this.kntrSpr.TabIndex = 4;
+            this.kntrSpr.Text = "Sprawdzenie połączenia";
+            this.kntrSpr.UseVisualStyleBackColor = true;
+            // 
             // sprzedawca_m
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -133,5 +144,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Button btn_akt_sprz;
+        private System.Windows.Forms.Button kntrSpr;
     }
 }

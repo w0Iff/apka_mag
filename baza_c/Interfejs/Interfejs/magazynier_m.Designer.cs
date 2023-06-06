@@ -31,6 +31,7 @@
             this.btn_pozycja = new System.Windows.Forms.Button();
             this.btn_usunpoz = new System.Windows.Forms.Button();
             this.btn_aktm = new System.Windows.Forms.Button();
+            this.kntrSpr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_pozycja
@@ -61,11 +62,22 @@
             this.btn_aktm.Text = "Zaktualizuj dane";
             this.btn_aktm.UseVisualStyleBackColor = true;
             // 
+            // kntrSpr
+            // 
+            this.kntrSpr.Location = new System.Drawing.Point(30, 262);
+            this.kntrSpr.Name = "kntrSpr";
+            this.kntrSpr.Size = new System.Drawing.Size(132, 42);
+            this.kntrSpr.TabIndex = 3;
+            this.kntrSpr.Text = "Sprawdzenie połączenia";
+            this.kntrSpr.UseVisualStyleBackColor = true;
+            this.kntrSpr.Click += new System.EventHandler(this.button1_Click);
+            // 
             // magazynier_m
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.kntrSpr);
             this.Controls.Add(this.btn_aktm);
             this.Controls.Add(this.btn_usunpoz);
             this.Controls.Add(this.btn_pozycja);
@@ -80,5 +92,6 @@
         private System.Windows.Forms.Button btn_pozycja;
         private System.Windows.Forms.Button btn_usunpoz;
         private System.Windows.Forms.Button btn_aktm;
+        private System.Windows.Forms.Button kntrSpr;
     }
 }
