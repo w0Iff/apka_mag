@@ -20,26 +20,34 @@ namespace sprPolaczenia
             kntrERR.Visible = false;
         }
 
-        private void kntrSpr_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Data.polaczenie.dataSource();
-                con.connOpen();
-                kntrOK.Visible = true;
-                kntrERR.Visible = false;
-                con.connClose();
-            }
-            catch (Exception)
-            {
-                kntrERR.Visible = true;
-                kntrOK.Visible = false;
-                con.connClose();
-            }
-            finally
-            {
-                con.connClose();
-            }
-        }
+        private Timer connTimer;
+
+public magazynier_m()
+{
+    InitializeComponent();
+    connTimer = new Timer();
+    connTimer.Interval = 5000; // check every 5 seconds
+    connTimer.Tick += new EventHandler(connTimer_Tick);
+    connTimer.Start();
+}
+
+private void connTimer_Tick(object sender, EventArgs e)
+{
+    if (!Data.polaczenie.connCheck())
+    {
+        // show error message and disable buttons
+        MessageBox.Show("Connection lost!");
+        btn_pozycja.Enabled = false;
+        btn_usunpoz.Enabled = false;
+        btn_aktm.Enabled = false;
+    }
+    else
+    {
+        // enable buttons
+        btn_pozycja.Enabled = true;
+        btn_usunpoz.Enabled = true;
+        btn_aktm.Enabled = true;
+    }
+}
     }
 }
