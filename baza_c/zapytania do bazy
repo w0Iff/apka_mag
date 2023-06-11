@@ -1,0 +1,11 @@
+INSERT INTO inventory (item_name, item_quantity, item_price) VALUES ('Widget', 100, 2.99);
+
+UPDATE inventory SET item_quantity = 50 WHERE item_name = 'Widget';
+
+DELETE FROM inventory WHERE item_name = 'Widget';
+
+SELECT * FROM inventory;
+
+SELECT SUM(item_quantity * item_price) AS total_value FROM inventory;
+
+SELECT item_name, SUM(quantity_sold) AS total_sales FROM sales GROUP BY item_name ORDER BY total_sales DESC LIMIT 10;
