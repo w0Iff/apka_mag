@@ -22,12 +22,18 @@ namespace sprPolaczenia.Data
             return connMaster;
         }
 
-        public void connOpen()
-        {
-            dataSource();
-            connMaster.Open();
-
-        }
+        public bool connCheck()
+{
+    dataSource();
+    if (connMaster.State == ConnectionState.Open)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 
         public void connClose()
         {
