@@ -61,5 +61,10 @@ namespace Interfejs
         {
 
         }
+
+        private void kntrOK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

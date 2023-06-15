@@ -47,5 +47,10 @@ namespace Interfejs
         {
 
         }
+
+        private void btn_aktm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

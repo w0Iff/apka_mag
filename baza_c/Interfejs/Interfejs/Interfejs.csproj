@@ -99,6 +99,11 @@
     <Compile Include="magazynier_m.Designer.cs">
       <DependentUpon>magazynier_m.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="sprzedawca_m.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,13 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="sprzedawca_m.resx">
       <DependentUpon>sprzedawca_m.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +140,35 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\testbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final_bc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlofinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\przycisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\184bt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smallbt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medbt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalnetlo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalnetlo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalkoniec.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
