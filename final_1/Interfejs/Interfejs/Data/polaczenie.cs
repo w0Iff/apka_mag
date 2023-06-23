@@ -18,9 +18,11 @@ namespace Interfejs.Data
 
         public static MySqlConnection dataSource()
         {
+
             connMaster = new MySqlConnection($"server={server} database={database} Uid={Uid} password={password}");
             return connMaster;
         }
+
 
         public void connOpen()
         {

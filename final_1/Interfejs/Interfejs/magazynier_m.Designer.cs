@@ -60,7 +60,7 @@
             this.btn_usunpoz.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.btn_usunpoz.ForeColor = System.Drawing.Color.White;
             this.btn_usunpoz.Location = new System.Drawing.Point(334, 138);
-            this.btn_usunpoz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_usunpoz.Margin = new System.Windows.Forms.Padding(2);
             this.btn_usunpoz.Name = "btn_usunpoz";
             this.btn_usunpoz.Size = new System.Drawing.Size(99, 46);
             this.btn_usunpoz.TabIndex = 1;
@@ -80,7 +80,7 @@
             this.btn_aktm.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.btn_aktm.ForeColor = System.Drawing.Color.White;
             this.btn_aktm.Location = new System.Drawing.Point(334, 197);
-            this.btn_aktm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_aktm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_aktm.Name = "btn_aktm";
             this.btn_aktm.Size = new System.Drawing.Size(99, 46);
             this.btn_aktm.TabIndex = 2;
@@ -100,7 +100,7 @@
             this.kntrSpr.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.kntrSpr.ForeColor = System.Drawing.Color.White;
             this.kntrSpr.Location = new System.Drawing.Point(334, 256);
-            this.kntrSpr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kntrSpr.Margin = new System.Windows.Forms.Padding(2);
             this.kntrSpr.Name = "kntrSpr";
             this.kntrSpr.Size = new System.Drawing.Size(99, 46);
             this.kntrSpr.TabIndex = 3;
@@ -132,6 +132,7 @@
             this.kntrERR.Size = new System.Drawing.Size(36, 15);
             this.kntrERR.TabIndex = 6;
             this.kntrERR.Text = "Błąd";
+            this.kntrERR.Click += new System.EventHandler(this.kntrERR_Click);
             // 
             // btn_pozycja
             // 
@@ -145,7 +146,7 @@
             this.btn_pozycja.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.btn_pozycja.ForeColor = System.Drawing.Color.White;
             this.btn_pozycja.Location = new System.Drawing.Point(334, 77);
-            this.btn_pozycja.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pozycja.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pozycja.Name = "btn_pozycja";
             this.btn_pozycja.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btn_pozycja.Size = new System.Drawing.Size(99, 46);
@@ -309,7 +310,7 @@
             this.Controls.Add(this.btn_aktm);
             this.Controls.Add(this.btn_usunpoz);
             this.Controls.Add(this.btn_pozycja);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "magazynier_m";
             this.Text = "Magazyn";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
