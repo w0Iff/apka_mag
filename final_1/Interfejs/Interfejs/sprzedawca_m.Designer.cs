@@ -56,10 +56,10 @@
             this.kntrSpr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kntrSpr.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.kntrSpr.ForeColor = System.Drawing.Color.White;
-            this.kntrSpr.Location = new System.Drawing.Point(437, 116);
-            this.kntrSpr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kntrSpr.Location = new System.Drawing.Point(583, 143);
+            this.kntrSpr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kntrSpr.Name = "kntrSpr";
-            this.kntrSpr.Size = new System.Drawing.Size(99, 46);
+            this.kntrSpr.Size = new System.Drawing.Size(132, 57);
             this.kntrSpr.TabIndex = 4;
             this.kntrSpr.Text = "Sprawdzenie Połączenia";
             this.kntrSpr.UseVisualStyleBackColor = false;
@@ -70,10 +70,9 @@
             this.kntrOK.AutoSize = true;
             this.kntrOK.BackColor = System.Drawing.Color.Lime;
             this.kntrOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.kntrOK.Location = new System.Drawing.Point(446, 204);
-            this.kntrOK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.kntrOK.Location = new System.Drawing.Point(595, 251);
             this.kntrOK.Name = "kntrOK";
-            this.kntrOK.Size = new System.Drawing.Size(74, 15);
+            this.kntrOK.Size = new System.Drawing.Size(89, 18);
             this.kntrOK.TabIndex = 6;
             this.kntrOK.Text = "Połączono";
             this.kntrOK.Click += new System.EventHandler(this.kntrOK_Click);
@@ -83,12 +82,11 @@
             this.kntrERR.AutoSize = true;
             this.kntrERR.BackColor = System.Drawing.Color.Crimson;
             this.kntrERR.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.kntrERR.Location = new System.Drawing.Point(463, 238);
-            this.kntrERR.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.kntrERR.Location = new System.Drawing.Point(617, 293);
             this.kntrERR.Name = "kntrERR";
-            this.kntrERR.Size = new System.Drawing.Size(36, 15);
+            this.kntrERR.Size = new System.Drawing.Size(129, 18);
             this.kntrERR.TabIndex = 7;
-            this.kntrERR.Text = "Błąd";
+            this.kntrERR.Text = "Błąd Połączenia";
             this.kntrERR.Click += new System.EventHandler(this.kntrERR_Click);
             // 
             // btn_akt_sprz
@@ -102,10 +100,10 @@
             this.btn_akt_sprz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_akt_sprz.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.btn_akt_sprz.ForeColor = System.Drawing.Color.White;
-            this.btn_akt_sprz.Location = new System.Drawing.Point(437, 58);
-            this.btn_akt_sprz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_akt_sprz.Location = new System.Drawing.Point(583, 71);
+            this.btn_akt_sprz.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_akt_sprz.Name = "btn_akt_sprz";
-            this.btn_akt_sprz.Size = new System.Drawing.Size(99, 46);
+            this.btn_akt_sprz.Size = new System.Drawing.Size(132, 57);
             this.btn_akt_sprz.TabIndex = 0;
             this.btn_akt_sprz.Text = "Aktualizacja Danych";
             this.btn_akt_sprz.UseVisualStyleBackColor = false;
@@ -114,33 +112,37 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(221, 258);
+            this.textBox4.Location = new System.Drawing.Point(295, 318);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(132, 29);
+            this.textBox4.Size = new System.Drawing.Size(175, 34);
             this.textBox4.TabIndex = 31;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(221, 190);
+            this.textBox3.Location = new System.Drawing.Point(295, 234);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(132, 29);
+            this.textBox3.Size = new System.Drawing.Size(175, 34);
             this.textBox3.TabIndex = 30;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(221, 123);
+            this.textBox2.Location = new System.Drawing.Point(295, 151);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 29);
+            this.textBox2.Size = new System.Drawing.Size(175, 34);
             this.textBox2.TabIndex = 29;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(221, 52);
+            this.textBox1.Location = new System.Drawing.Point(295, 64);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 29);
+            this.textBox1.Size = new System.Drawing.Size(175, 34);
             this.textBox1.TabIndex = 28;
             // 
             // label4
@@ -149,9 +151,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(133, 120);
+            this.label4.Location = new System.Drawing.Point(177, 148);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 28);
+            this.label4.Size = new System.Drawing.Size(93, 35);
             this.label4.TabIndex = 27;
             this.label4.Text = "Nazwa";
             // 
@@ -161,9 +164,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(172, 49);
+            this.label3.Location = new System.Drawing.Point(229, 60);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 28);
+            this.label3.Size = new System.Drawing.Size(41, 35);
             this.label3.TabIndex = 26;
             this.label3.Text = "ID";
             // 
@@ -173,9 +177,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(63, 190);
+            this.label2.Location = new System.Drawing.Point(84, 234);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 28);
+            this.label2.Size = new System.Drawing.Size(186, 35);
             this.label2.TabIndex = 25;
             this.label2.Text = "Dostepna ilosc";
             // 
@@ -185,9 +190,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(64, 259);
+            this.label1.Location = new System.Drawing.Point(85, 319);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 28);
+            this.label1.Size = new System.Drawing.Size(188, 35);
             this.label1.TabIndex = 24;
             this.label1.Text = "Cena za sztuke";
             // 
@@ -202,10 +208,10 @@
             this.btn_refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_refresh.Font = new System.Drawing.Font("Yu Gothic", 14F, System.Drawing.FontStyle.Bold);
             this.btn_refresh.ForeColor = System.Drawing.Color.White;
-            this.btn_refresh.Location = new System.Drawing.Point(588, 7);
-            this.btn_refresh.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_refresh.Location = new System.Drawing.Point(784, 9);
+            this.btn_refresh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_refresh.Name = "btn_refresh";
-            this.btn_refresh.Size = new System.Drawing.Size(99, 46);
+            this.btn_refresh.Size = new System.Drawing.Size(132, 57);
             this.btn_refresh.TabIndex = 33;
             this.btn_refresh.Text = "Odśwież";
             this.btn_refresh.UseVisualStyleBackColor = false;
@@ -214,19 +220,21 @@
             // dataGridViewSprzedawca
             // 
             this.dataGridViewSprzedawca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSprzedawca.Location = new System.Drawing.Point(588, 68);
+            this.dataGridViewSprzedawca.Location = new System.Drawing.Point(784, 84);
+            this.dataGridViewSprzedawca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewSprzedawca.Name = "dataGridViewSprzedawca";
+            this.dataGridViewSprzedawca.RowHeadersWidth = 51;
             this.dataGridViewSprzedawca.RowTemplate.Height = 24;
-            this.dataGridViewSprzedawca.Size = new System.Drawing.Size(528, 296);
+            this.dataGridViewSprzedawca.Size = new System.Drawing.Size(704, 364);
             this.dataGridViewSprzedawca.TabIndex = 34;
             this.dataGridViewSprzedawca.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSprzedawca_CellContentClick);
             // 
             // sprzedawca_m
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Interfejs.Properties.Resources.finalkoniec;
-            this.ClientSize = new System.Drawing.Size(1128, 376);
+            this.ClientSize = new System.Drawing.Size(1504, 463);
             this.Controls.Add(this.dataGridViewSprzedawca);
             this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.textBox4);
@@ -241,7 +249,7 @@
             this.Controls.Add(this.kntrOK);
             this.Controls.Add(this.btn_akt_sprz);
             this.Controls.Add(this.kntrSpr);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "sprzedawca_m";
             this.Text = "Sklep";
             this.Load += new System.EventHandler(this.sprzedawca_m_Load);
