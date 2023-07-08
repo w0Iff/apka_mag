@@ -11,10 +11,10 @@ namespace Interfejs.Data
     {
         public static MySqlConnection connMaster = new MySqlConnection();
 
-        static string server = "127.0.0.1;";
-        static string database = "test;";
-        static string Uid = "root;";
-        static string password = ";";
+        static string server = "mysql1.small.pl;";
+        static string database = "m1344_test;";
+        static string Uid = "m1344_root;";
+        static string password = "Test123;";
 
         public static MySqlConnection dataSource()
         {

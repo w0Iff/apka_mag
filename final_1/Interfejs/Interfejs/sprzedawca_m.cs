@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Net.NetworkInformation;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,55 @@ namespace Interfejs
             }
             kntrOK.Visible = false;
             kntrERR.Visible = false;
+
+            Timer timer = new Timer();
+            timer.Interval = 10000;
+            timer.Tick += Timer_Tick;
+            timer.Start();
+        }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+
+            if (IsInternetAvailable())
+            {
+                foreach (Control control in Controls)
+                {
+                    if (control is Button)
+                    {
+                        control.Enabled = true;
+                    }
+                }
+                kntrOK.Visible = true;
+                kntrERR.Visible = false;
+            }
+            else
+            {
+                foreach (Control control in Controls)
+                {
+                    if (control is Button && control != kntrSpr)
+                    {
+                        control.Enabled = false;
+                    }
+                }
+                kntrERR.Visible = true;
+                kntrOK.Visible = false;
+            }
+        }
+
+        private bool IsInternetAvailable()
+        {
+            try
+            {
+                using (Ping ping = new Ping())
+                {
+                    PingReply reply = ping.Send("www.google.com", 1000);
+                    return (reply.Status == IPStatus.Success);
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         private void sprzedawca_m_Load(object sender, EventArgs e)
